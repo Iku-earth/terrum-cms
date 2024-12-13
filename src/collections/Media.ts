@@ -1,9 +1,13 @@
 import type { CollectionConfig } from 'payload'
+import {hasRole} from "@/utils/role-checker";
 
 export const Media: CollectionConfig = {
   slug: 'media',
   access: {
-    read: () => true,
+    read: ({ req }) => hasRole(req,['admin']),
+    create: ({ req }) => hasRole(req,['admin']),
+    update: ({ req }) => hasRole(req,['admin']),
+    delete: ({ req }) => hasRole(req,['admin']),
   },
   fields: [
     {
