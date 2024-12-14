@@ -149,10 +149,10 @@ const Event: CollectionConfig = {
         },
     ],
     access: {
-        read: ({ req }) => hasRole(req,['admin']),
-        create: ({ req }) => hasRole(req,['admin']),
-        update: ({ req }) => hasRole(req,['admin']),
-        delete: ({ req }) => hasRole(req,['admin']),
+        read: ({req}) => hasRole(req, ['admin', 'staff']),
+        create: ({req}) => hasRole(req, ['admin', 'staff']),
+        update: ({req}) => hasRole(req, ['admin', 'staff']),
+        delete: ({req}) => hasRole(req, ['admin', 'staff']),
     }
 };
 
