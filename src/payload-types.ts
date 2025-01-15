@@ -108,18 +108,28 @@ export interface Media {
 export interface Brand {
   id: number;
   name: string;
+  description: string;
+  industry: string;
+  country: string;
+  contactEmail: string;
+  phoneNumber?: string | null;
   website: string;
-  shoppingCategories?: (number | ShoppingCategory)[] | null;
-  updatedAt: string;
-  createdAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "shopping-categories".
- */
-export interface ShoppingCategory {
-  id: number;
-  name: string;
+  productsOffered?: string | null;
+  socialMediaLinks?:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  foundedYear?: number | null;
+  businessModel?: string | null;
+  impactMetrics?: string | null;
+  partnerships?: string | null;
+  createdBy: number | User;
+  updatedBy?: (number | null) | User;
   updatedAt: string;
   createdAt: string;
 }
@@ -152,6 +162,16 @@ export interface Event {
     | number
     | boolean
     | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "shopping-categories".
+ */
+export interface ShoppingCategory {
+  id: number;
+  name: string;
   updatedAt: string;
   createdAt: string;
 }
@@ -265,8 +285,20 @@ export interface MediaSelect<T extends boolean = true> {
  */
 export interface BrandsSelect<T extends boolean = true> {
   name?: T;
+  description?: T;
+  industry?: T;
+  country?: T;
+  contactEmail?: T;
+  phoneNumber?: T;
   website?: T;
-  shoppingCategories?: T;
+  productsOffered?: T;
+  socialMediaLinks?: T;
+  foundedYear?: T;
+  businessModel?: T;
+  impactMetrics?: T;
+  partnerships?: T;
+  createdBy?: T;
+  updatedBy?: T;
   updatedAt?: T;
   createdAt?: T;
 }
