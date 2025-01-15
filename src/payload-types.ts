@@ -130,6 +130,17 @@ export interface Brand {
   partnerships?: string | null;
   createdBy: number | User;
   updatedBy?: (number | null) | User;
+  shoppingCategories?: (number | ShoppingCategory)[] | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "shopping-categories".
+ */
+export interface ShoppingCategory {
+  id: number;
+  name: string;
   updatedAt: string;
   createdAt: string;
 }
@@ -162,16 +173,6 @@ export interface Event {
     | number
     | boolean
     | null;
-  updatedAt: string;
-  createdAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "shopping-categories".
- */
-export interface ShoppingCategory {
-  id: number;
-  name: string;
   updatedAt: string;
   createdAt: string;
 }
@@ -299,6 +300,7 @@ export interface BrandsSelect<T extends boolean = true> {
   partnerships?: T;
   createdBy?: T;
   updatedBy?: T;
+  shoppingCategories?: T;
   updatedAt?: T;
   createdAt?: T;
 }

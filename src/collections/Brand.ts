@@ -131,6 +131,13 @@ const Brand: CollectionConfig = {
                 readOnly: true,
             },
         },
+        {
+            name: "shoppingCategories",
+            type: "relationship",
+            required: false,
+            hasMany: true,
+            relationTo: "shopping-categories",
+        },
     ],
     hooks: {
         beforeChange: [
