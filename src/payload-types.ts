@@ -156,7 +156,9 @@ export interface Event {
   venue?: string | null;
   city?: string | null;
   locality?: string | null;
-  'google maps link': string;
+  'google maps link'?: string | null;
+  'google form link'?: string | null;
+  'payment link'?: string | null;
   'is single day'?: boolean | null;
   'start date': string;
   end_date?: string | null;
@@ -316,6 +318,8 @@ export interface EventsSelect<T extends boolean = true> {
   city?: T;
   locality?: T;
   'google maps link'?: T;
+  'google form link'?: T;
+  'payment link'?: T;
   'is single day'?: T;
   'start date'?: T;
   end_date?: T;
