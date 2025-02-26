@@ -150,6 +150,7 @@ export interface ShoppingCategory {
  */
 export interface Event {
   id: number;
+  'event uuid'?: string | null;
   name: string;
   description: string;
   image: number | Media;
@@ -311,6 +312,7 @@ export interface BrandsSelect<T extends boolean = true> {
  * via the `definition` "events_select".
  */
 export interface EventsSelect<T extends boolean = true> {
+  'event uuid'?: T;
   name?: T;
   description?: T;
   image?: T;

@@ -1,5 +1,32 @@
 import {CollectionConfig} from "payload";
 import {hasRole} from "@/utils/role-checker";
+import { v4 as uuidv4 } from 'uuid';
+
+// Reusable URL validation function
+const validateUrl = (value?: string | string[] | null) => {
+    // Return true if value is empty or undefined
+    if (!value || value === "") {
+        return true;
+    }
+
+    if (typeof value === "string") {
+        const urlPattern = new RegExp(
+            "^(https?:\\/\\/)?" + // Protocol (optional)
+            "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|" + // Domain name
+            "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR IP (v4) address
+            "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // Port and path
+            "(\\?[;&a-z\\d%_.~+=-]*)?" + // Query string
+            "(\\#[-a-z\\d_]*)?$", // Fragment locator
+            "i"
+        );
+
+        if (urlPattern.test(value)) {
+            return true;
+        }
+        return "Invalid URL format.";
+    }
+    return "Invalid URL format.";
+};
 
 const Event: CollectionConfig = {
     slug: 'events',
@@ -8,10 +35,43 @@ const Event: CollectionConfig = {
         plural: 'Events',
     },
     admin: {
-        defaultColumns: ['name', 'city', 'start_date', 'end_date', 'is_online'],
+        defaultColumns: ['name', 'event uuid'],
         useAsTitle: 'name',
     },
+    hooks: {
+        beforeChange: [
+            ({ data, operation }) => {
+                // Only generate UUID if this is a new document being created
+                if (operation === 'create') {
+                    return {
+                        ...data,
+                        event_uuid: uuidv4(),
+                    };
+                }
+                return data;
+            },
+        ],
+    },
     fields: [
+        {
+            name: 'actions',
+            type: 'ui',
+            admin: {
+                position: 'sidebar',
+                components: {
+                    Field: "src/admin/components/CopyUUIDButton.tsx"
+                }
+            },
+        },
+        {
+            name: 'event uuid',
+            type: 'text',
+            admin: {
+                readOnly: true,
+                description: 'Automatically generated unique identifier',
+                position: 'sidebar',
+            },
+        },
         {
             name: 'name',
             type: 'text',
@@ -66,25 +126,7 @@ const Event: CollectionConfig = {
             admin: {
                 placeholder: 'Enter the Google Maps link for the event',
             },
-            validate: (value?: string | string[] | null) => {
-                if (typeof value === "string") {
-                    const urlPattern = new RegExp(
-                        "^(https?:\\/\\/)?" + // Protocol (optional)
-                        "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|" + // Domain name
-                        "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR IP (v4) address
-                        "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // Port and path
-                        "(\\?[;&a-z\\d%_.~+=-]*)?" + // Query string
-                        "(\\#[-a-z\\d_]*)?$", // Fragment locator
-                        "i"
-                    );
-
-                    if (urlPattern.test(value)) {
-                        return true;
-                    }
-                    return "Invalid URL format.";
-                }
-                return "Invalid URL format.";
-            },
+            validate: validateUrl
         },
         {
             name: 'google form link',
@@ -93,25 +135,7 @@ const Event: CollectionConfig = {
             admin: {
                 placeholder: 'Enter the Google form link for the event',
             },
-            validate: (value?: string | string[] | null) => {
-                if (typeof value === "string") {
-                    const urlPattern = new RegExp(
-                        "^(https?:\\/\\/)?" + // Protocol (optional)
-                        "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|" + // Domain name
-                        "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR IP (v4) address
-                        "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // Port and path
-                        "(\\?[;&a-z\\d%_.~+=-]*)?" + // Query string
-                        "(\\#[-a-z\\d_]*)?$", // Fragment locator
-                        "i"
-                    );
-
-                    if (urlPattern.test(value)) {
-                        return true;
-                    }
-                    return "Invalid URL format.";
-                }
-                return "Invalid URL format.";
-            },
+            validate: validateUrl
         },
         {
             name: 'payment link',
@@ -120,25 +144,7 @@ const Event: CollectionConfig = {
             admin: {
                 placeholder: 'Enter the payment link for the event',
             },
-            validate: (value?: string | string[] | null) => {
-                if (typeof value === "string") {
-                    const urlPattern = new RegExp(
-                        "^(https?:\\/\\/)?" + // Protocol (optional)
-                        "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|" + // Domain name
-                        "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR IP (v4) address
-                        "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // Port and path
-                        "(\\?[;&a-z\\d%_.~+=-]*)?" + // Query string
-                        "(\\#[-a-z\\d_]*)?$", // Fragment locator
-                        "i"
-                    );
-
-                    if (urlPattern.test(value)) {
-                        return true;
-                    }
-                    return "Invalid URL format.";
-                }
-                return "Invalid URL format.";
-            },
+            validate: validateUrl
         },
         {
             name: 'is single day',
