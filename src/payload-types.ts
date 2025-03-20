@@ -235,6 +235,7 @@ export interface Event {
   locality?: string | null;
   'google maps link'?: string | null;
   'google form link'?: string | null;
+  price: number;
   'payment link'?: string | null;
   /**
    * Check this if the event occurs on a single day.
@@ -601,6 +602,7 @@ export interface EventsSelect<T extends boolean = true> {
   locality?: T;
   'google maps link'?: T;
   'google form link'?: T;
+  price?: T;
   'payment link'?: T;
   'is single day'?: T;
   'start date'?: T;

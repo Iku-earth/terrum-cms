@@ -130,6 +130,15 @@ const Event: CollectionConfig = {
       validate: validateUrl,
     },
     {
+        name: 'price',
+        type: 'number',
+        admin: {
+          placeholder: 'Enter the price of the event',
+        },
+        required: true,
+        defaultValue: 0.0,
+    },
+    {
       name: 'payment link',
       type: 'text',
       required: false,
