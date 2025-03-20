@@ -214,7 +214,21 @@ export interface Event {
    */
   'event uuid'?: string | null;
   name: string;
-  description: string;
+  description: {
+    root: {
+      type: string;
+      children: {
+        type: string;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  };
   image: number | Media;
   venue?: string | null;
   city?: string | null;
@@ -227,7 +241,7 @@ export interface Event {
    */
   'is single day'?: boolean | null;
   'start date': string;
-  end_date?: string | null;
+  'end date'?: string | null;
   'start time'?: string | null;
   'end time'?: string | null;
   /**
@@ -239,17 +253,10 @@ export interface Event {
    */
   'is online'?: boolean | null;
   /**
-   * Provide structured location data for the event.
+   * @minItems 2
+   * @maxItems 2
    */
-  location?:
-    | {
-        [k: string]: unknown;
-      }
-    | unknown[]
-    | string
-    | number
-    | boolean
-    | null;
+  location?: [number, number] | null;
   form?: (number | null) | Form;
   updatedAt: string;
   createdAt: string;
@@ -597,7 +604,7 @@ export interface EventsSelect<T extends boolean = true> {
   'payment link'?: T;
   'is single day'?: T;
   'start date'?: T;
-  end_date?: T;
+  'end date'?: T;
   'start time'?: T;
   'end time'?: T;
   deleted?: T;

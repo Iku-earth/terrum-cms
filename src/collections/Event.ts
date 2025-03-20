@@ -1,36 +1,36 @@
-import {CollectionConfig, FieldHook} from "payload";
-import {hasRole} from "@/utils/role-checker";
-import { v4 as uuidv4 } from 'uuid';
+import { CollectionConfig, FieldHook } from 'payload'
+import { hasRole } from '@/utils/role-checker'
+import { v4 as uuidv4 } from 'uuid'
 
 const generateUUID: FieldHook = ({ value }) => {
   // If the document already has a UUID, keep it. Otherwise, generate a new one.
-  return value || uuidv4();
-};
+  return value || uuidv4()
+}
 // Reusable URL validation function
 const validateUrl = (value?: string | string[] | null) => {
-    // Return true if value is empty or undefined
-    if (!value || value === "") {
-        return true;
-    }
+  // Return true if value is empty or undefined
+  if (!value || value === '') {
+    return true
+  }
 
-    if (typeof value === "string") {
-        const urlPattern = new RegExp(
-            "^(https?:\\/\\/)?" + // Protocol (optional)
-            "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|" + // Domain name
-            "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR IP (v4) address
-            "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // Port and path
-            "(\\?[;&a-z\\d%_.~+=-]*)?" + // Query string
-            "(\\#[-a-z\\d_]*)?$", // Fragment locator
-            "i"
-        );
+  if (typeof value === 'string') {
+    const urlPattern = new RegExp(
+      '^(https?:\\/\\/)?' + // Protocol (optional)
+        '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|' + // Domain name
+        '((\\d{1,3}\\.){3}\\d{1,3}))' + // OR IP (v4) address
+        '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + // Port and path
+        '(\\?[;&a-z\\d%_.~+=-]*)?' + // Query string
+        '(\\#[-a-z\\d_]*)?$', // Fragment locator
+      'i',
+    )
 
-        if (urlPattern.test(value)) {
-            return true;
-        }
-        return "Invalid URL format.";
+    if (urlPattern.test(value)) {
+      return true
     }
-    return "Invalid URL format.";
-};
+    return 'Invalid URL format.'
+  }
+  return 'Invalid URL format.'
+}
 
 const Event: CollectionConfig = {
   slug: 'events',
@@ -64,7 +64,7 @@ const Event: CollectionConfig = {
       },
       hooks: {
         beforeChange: [generateUUID],
-      }
+      },
     },
     {
       name: 'name',
@@ -77,11 +77,9 @@ const Event: CollectionConfig = {
     },
     {
       name: 'description',
-      type: 'textarea',
+      type: 'richText',
       required: true,
-      admin: {
-        placeholder: 'Provide a detailed description of the event',
-      },
+
     },
     {
       name: 'image',
@@ -157,7 +155,7 @@ const Event: CollectionConfig = {
       },
     },
     {
-      name: 'end_date',
+      name: 'end date',
       type: 'date',
       admin: {
         placeholder: 'Select the end date (optional)',
@@ -165,16 +163,22 @@ const Event: CollectionConfig = {
     },
     {
       name: 'start time',
-      type: 'text',
+      type: 'date',
       admin: {
-        placeholder: 'Enter the start time (e.g., HH:MM:SS)',
+        placeholder: '12:00 PM',
+        date: {
+          pickerAppearance: 'timeOnly',
+        },
       },
     },
     {
       name: 'end time',
-      type: 'text',
+      type: 'date',
       admin: {
-        placeholder: 'Enter the end time (e.g., HH:MM:SS)',
+        placeholder: '12:00 PM',
+        date: {
+          pickerAppearance: 'timeOnly',
+        },
       },
     },
     {
@@ -195,11 +199,8 @@ const Event: CollectionConfig = {
     },
     {
       name: 'location',
-      type: 'json',
-      defaultValue: {},
-      admin: {
-        description: 'Provide structured location data for the event.',
-      },
+      type: 'point',
+      label: 'Location',
     },
     {
       name: 'form',
@@ -216,4 +217,4 @@ const Event: CollectionConfig = {
   },
 }
 
-export default Event;
+export default Event
