@@ -7,12 +7,13 @@ import {fileURLToPath} from 'url';
 import sharp from 'sharp';
 import {s3Storage} from '@payloadcms/storage-s3';
 
-import {Users} from './collections/Users';
-import {Media} from './collections/Media';
+import {Users} from '@/collections/Users';
+import {Media} from '@/collections/Media';
 import Brand from "@/collections/Brand";
 import Event from "@/collections/Event";
 import ShoppingCategory from "@/collections/ShoppingCategory";
 import { formBuilderPlugin } from '@payloadcms/plugin-form-builder';
+import { importExportPlugin } from '@payloadcms/plugin-import-export';
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -66,6 +67,15 @@ export default buildConfig({
         message: true,
         payment: false,
       },
+    }),
+    importExportPlugin({
+      collections: ['brands'],
+      overrideExportCollection: (collection) => {
+        collection.admin.group = 'System'
+        collection.upload.staticDir = path.resolve(dirname, 'uploads')
+        return collection
+      },
+      disableJobsQueue: true,
     }),
   ],
 })

@@ -79,7 +79,6 @@ const Event: CollectionConfig = {
       name: 'description',
       type: 'richText',
       required: true,
-
     },
     {
       name: 'image',
@@ -130,13 +129,13 @@ const Event: CollectionConfig = {
       validate: validateUrl,
     },
     {
-        name: 'price',
-        type: 'number',
-        admin: {
-          placeholder: 'Enter the price of the event',
-        },
-        required: true,
-        defaultValue: 0.0,
+      name: 'price',
+      type: 'number',
+      admin: {
+        placeholder: 'Enter the price of the event',
+      },
+      required: true,
+      defaultValue: 0.0,
     },
     {
       name: 'payment link',
@@ -148,31 +147,31 @@ const Event: CollectionConfig = {
       validate: validateUrl,
     },
     {
-      name: 'is single day',
-      type: 'checkbox',
-      defaultValue: false,
-      admin: {
-        description: 'Check this if the event occurs on a single day.',
-      },
-    },
-    {
       name: 'start date',
       type: 'date',
       required: true,
       admin: {
         placeholder: 'Select the start date of the event',
+        date: {
+          pickerAppearance: 'dayOnly',
+        },
       },
     },
     {
       name: 'end date',
       type: 'date',
+      required: true,
       admin: {
         placeholder: 'Select the end date (optional)',
+        date: {
+          pickerAppearance: 'dayOnly',
+        },
       },
     },
     {
       name: 'start time',
       type: 'date',
+      required: true,
       admin: {
         placeholder: '12:00 PM',
         date: {
@@ -183,6 +182,7 @@ const Event: CollectionConfig = {
     {
       name: 'end time',
       type: 'date',
+      required: true,
       admin: {
         placeholder: '12:00 PM',
         date: {
@@ -191,19 +191,19 @@ const Event: CollectionConfig = {
       },
     },
     {
-      name: 'deleted',
-      type: 'checkbox',
-      defaultValue: false,
-      admin: {
-        description: 'Mark this if the event is deleted.',
-      },
-    },
-    {
       name: 'is online',
       type: 'checkbox',
       defaultValue: false,
       admin: {
-        description: 'Check this if the event is an online event.',
+        description: 'Check this if the event is only an online event.',
+      },
+    },
+    {
+      name: 'is online and offline',
+      type: 'checkbox',
+      defaultValue: false,
+      admin: {
+        description: 'Check this if an offline event is also streamed online.',
       },
     },
     {
@@ -216,6 +216,14 @@ const Event: CollectionConfig = {
       type: 'relationship',
       relationTo: 'forms', // Reference to the forms collection
       required: false,
+    },
+    {
+      name: 'deleted',
+      type: 'checkbox',
+      defaultValue: false,
+      admin: {
+        description: 'Mark this if the event is deleted.',
+      },
     },
   ],
   access: {
