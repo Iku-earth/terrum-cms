@@ -14,11 +14,13 @@ import Event from "@/collections/Event";
 import ShoppingCategory from "@/collections/ShoppingCategory";
 import { formBuilderPlugin } from '@payloadcms/plugin-form-builder';
 import { importExportPlugin } from '@payloadcms/plugin-import-export';
+import { resendAdapter } from '@payloadcms/email-resend';
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 export default buildConfig({
+  cors: ['http://localhost:3001'],
   admin: {
     user: Users.slug,
     importMap: {
@@ -78,4 +80,9 @@ export default buildConfig({
       disableJobsQueue: true,
     }),
   ],
+  email: resendAdapter({
+    defaultFromAddress: 'cms@terrum.in',
+    defaultFromName: 'Terrum CMS',
+    apiKey: process.env.RESEND_API_KEY || '',
+  }),
 })
