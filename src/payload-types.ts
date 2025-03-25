@@ -7469,9 +7469,6 @@ export interface Brand {
       )[]
     | null;
   foundedYear?: number | null;
-  businessModel?: string | null;
-  impactMetrics?: string | null;
-  partnerships?: string | null;
   createdBy: number | User;
   updatedBy?: (number | null) | User;
   shoppingCategories?: (number | ShoppingCategory)[] | null;
@@ -8007,9 +8004,6 @@ export interface BrandsSelect<T extends boolean = true> {
   'products and services offered'?: T;
   'serviceable locations'?: T;
   foundedYear?: T;
-  businessModel?: T;
-  impactMetrics?: T;
-  partnerships?: T;
   createdBy?: T;
   updatedBy?: T;
   shoppingCategories?: T;

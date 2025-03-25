@@ -103,21 +103,6 @@ const Brand: CollectionConfig = {
       max: new Date().getFullYear(),
     },
     {
-      name: 'businessModel',
-      type: 'text',
-      required: false,
-    },
-    {
-      name: 'impactMetrics',
-      type: 'textarea',
-      required: false,
-    },
-    {
-      name: 'partnerships',
-      type: 'textarea',
-      required: false,
-    },
-    {
       name: 'createdBy',
       type: 'relationship',
       relationTo: 'users',
