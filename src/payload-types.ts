@@ -7525,6 +7525,8 @@ export interface Event {
   'google maps link'?: string | null;
   'google form link'?: string | null;
   price: number;
+  'early bird price'?: number | null;
+  'early bird end date'?: string | null;
   'payment link'?: string | null;
   'start date': string;
   'end date': string;
@@ -8032,6 +8034,8 @@ export interface EventsSelect<T extends boolean = true> {
   'google maps link'?: T;
   'google form link'?: T;
   price?: T;
+  'early bird price'?: T;
+  'early bird end date'?: T;
   'payment link'?: T;
   'start date'?: T;
   'end date'?: T;

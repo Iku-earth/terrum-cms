@@ -138,6 +138,25 @@ const Event: CollectionConfig = {
       defaultValue: 0.0,
     },
     {
+      name: 'early bird price',
+      type: 'number',
+      admin: {
+        placeholder: 'Enter the early bird price of the event',
+      },
+      required: false,
+    },
+    {
+      name: 'early bird end date',
+      type: 'date',
+      required: false,
+      admin: {
+        placeholder: 'Select the early bird end date',
+        date: {
+          pickerAppearance: 'dayOnly',
+        },
+      },
+    },
+    {
       name: 'payment link',
       type: 'text',
       required: false,
