@@ -2566,10 +2566,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'nawada',
   },
   {
-    label: 'Nawada',
-    value: 'nawada',
-  },
-  {
     label: 'Nirmali',
     value: 'nirmali',
   },
@@ -3218,10 +3214,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'korba',
   },
   {
-    label: 'Kota',
-    value: 'kota',
-  },
-  {
     label: 'Kotba',
     value: 'kotba',
   },
@@ -3310,20 +3302,12 @@ export const citiesAndStates: CityOrState[] = [
     value: 'ntpc_sipat_township',
   },
   {
-    label: 'Nagari',
-    value: 'nagari',
-  },
-  {
     label: 'Nai Ledri',
     value: 'nai_ledri',
   },
   {
     label: 'Namna Kalan',
     value: 'namna_kalan',
-  },
-  {
-    label: 'Narayanpur',
-    value: 'narayanpur',
   },
   {
     label: 'Narharpur',
@@ -4738,10 +4722,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'pardi_parnera',
   },
   {
-    label: 'Patan',
-    value: 'patan',
-  },
-  {
     label: 'Patdi',
     value: 'patdi',
   },
@@ -5166,14 +5146,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'barhi_industrial_area',
   },
   {
-    label: 'Barwala',
-    value: 'barwala',
-  },
-  {
-    label: 'Bawal',
-    value: 'bawal',
-  },
-  {
     label: 'Bawal',
     value: 'bawal',
   },
@@ -5200,10 +5172,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Bhuran',
     value: 'bhuran',
-  },
-  {
-    label: 'Bilaspur',
-    value: 'bilaspur',
   },
   {
     label: 'Binola Industrial Area',
@@ -5440,10 +5408,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Maham Part',
     value: 'maham_part',
-  },
-  {
-    label: 'Mahendragarh',
-    value: 'mahendragarh',
   },
   {
     label: 'Majra',
@@ -5728,10 +5692,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Bhuntar',
     value: 'bhuntar',
-  },
-  {
-    label: 'Bilaspur',
-    value: 'bilaspur',
   },
   {
     label: 'Chail',
@@ -6066,10 +6026,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'tira_sujanpur',
   },
   {
-    label: 'Una',
-    value: 'una',
-  },
-  {
     label: 'YOI',
     value: 'yoi',
   },
@@ -6158,10 +6114,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'billawar',
   },
   {
-    label: 'Birpur',
-    value: 'birpur',
-  },
-  {
     label: 'Bishna',
     value: 'bishna',
   },
@@ -6196,10 +6148,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Dara Pora',
     value: 'dara_pora',
-  },
-  {
-    label: 'Devsar',
-    value: 'devsar',
   },
   {
     label: 'Dhande Kalan',
@@ -6446,14 +6394,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'ramban',
   },
   {
-    label: 'Ramgarh',
-    value: 'ramgarh',
-  },
-  {
-    label: 'Ramnagar',
-    value: 'ramnagar',
-  },
-  {
     label: 'Ranbirsinghpora',
     value: 'ranbirsinghpora',
   },
@@ -6584,10 +6524,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Angarpathar',
     value: 'angarpathar',
-  },
-  {
-    label: 'Ara',
-    value: 'ara',
   },
   {
     label: 'Bachra',
@@ -7062,10 +6998,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'lohardaga',
   },
   {
-    label: 'Madhuban',
-    value: 'madhuban',
-  },
-  {
     label: 'Madhuban Giridih District',
     value: 'madhuban_giridih_district',
   },
@@ -7242,10 +7174,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'rajmahal',
   },
   {
-    label: 'Ramgarh',
-    value: 'ramgarh',
-  },
-  {
     label: 'Ramgarh Cantonment',
     value: 'ramgarh_cantonment',
   },
@@ -7312,10 +7240,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Sewai',
     value: 'sewai',
-  },
-  {
-    label: 'Shahpur',
-    value: 'shahpur',
   },
   {
     label: 'Sijhua',
@@ -7772,10 +7696,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Gudibanda',
     value: 'gudibanda',
-  },
-  {
-    label: 'Gudur',
-    value: 'gudur',
   },
   {
     label: 'Guledgudda',
@@ -8394,10 +8314,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'pudu',
   },
   {
-    label: 'Puttur',
-    value: 'puttur',
-  },
-  {
     label: 'Rabkavi Banhatti',
     value: 'rabkavi_banhatti',
   },
@@ -8420,10 +8336,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Ramanagara',
     value: 'ramanagara',
-  },
-  {
-    label: 'Ramanagaram',
-    value: 'ramanagaram',
   },
   {
     label: 'Ramanagaram',
@@ -8520,10 +8432,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Shahabad ACC',
     value: 'shahabad_acc',
-  },
-  {
-    label: 'Shahpur',
-    value: 'shahpur',
   },
   {
     label: 'Shaktinagar',
@@ -8812,10 +8720,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Alathur',
     value: 'alathur',
-  },
-  {
-    label: 'Alur',
-    value: 'alur',
   },
   {
     label: 'Aluva',
@@ -9440,10 +9344,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Kodungallur',
     value: 'kodungallur',
-  },
-  {
-    label: 'Kodur',
-    value: 'kodur',
   },
   {
     label: 'Koipady',
@@ -10742,10 +10642,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'baihar',
   },
   {
-    label: 'Baikunthpur',
-    value: 'baikunthpur',
-  },
-  {
     label: 'Balaghat',
     value: 'balaghat',
   },
@@ -10820,10 +10716,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Bargi',
     value: 'bargi',
-  },
-  {
-    label: 'Barhi',
-    value: 'barhi',
   },
   {
     label: 'Barigarh',
@@ -11706,10 +11598,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'mandsaur',
   },
   {
-    label: 'Mandu',
-    value: 'mandu',
-  },
-  {
     label: 'Maneri Industrial Growth Centre',
     value: 'maneri_industrial_growth_centre',
   },
@@ -11942,14 +11830,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'pasan',
   },
   {
-    label: 'Patan',
-    value: 'patan',
-  },
-  {
-    label: 'Patharia',
-    value: 'patharia',
-  },
-  {
     label: 'Pawai',
     value: 'pawai',
   },
@@ -11976,10 +11856,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Pipalrawan',
     value: 'pipalrawan',
-  },
-  {
-    label: 'Pipariya',
-    value: 'pipariya',
   },
   {
     label: 'Piplanarayanwar',
@@ -12050,14 +11926,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'rajnagar',
   },
   {
-    label: 'Rajpur',
-    value: 'rajpur',
-  },
-  {
-    label: 'Rampur',
-    value: 'rampur',
-  },
-  {
     label: 'Rampur Baghelan',
     value: 'rampur_baghelan',
   },
@@ -12112,10 +11980,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Sabo',
     value: 'sabo',
-  },
-  {
-    label: 'Sagar',
-    value: 'sagar',
   },
   {
     label: 'Sailana',
@@ -12180,10 +12044,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Seondha',
     value: 'seondha',
-  },
-  {
-    label: 'Seoni',
-    value: 'seoni',
   },
   {
     label: 'Seoni Malwa',
@@ -12538,10 +12398,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'ambivali_tarf_wankhal',
   },
   {
-    label: 'Amboli',
-    value: 'amboli',
-  },
-  {
     label: 'Amgaon',
     value: 'amgaon',
   },
@@ -12574,10 +12430,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'asangaon_industrial_area',
   },
   {
-    label: 'Ashta',
-    value: 'ashta',
-  },
-  {
     label: 'Ashti Bid District',
     value: 'ashti_bid_district',
   },
@@ -12596,10 +12448,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Atgaon Industrial Complex',
     value: 'atgaon_industrial_complex',
-  },
-  {
-    label: 'Aurangabad',
-    value: 'aurangabad',
   },
   {
     label: 'Ausa',
@@ -12634,10 +12482,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'ballarpur',
   },
   {
-    label: 'Banda',
-    value: 'banda',
-  },
-  {
     label: 'Baramati',
     value: 'baramati',
   },
@@ -12668,10 +12512,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Bhadgaon',
     value: 'bhadgaon',
-  },
-  {
-    label: 'Bhadravati',
-    value: 'bhadravati',
   },
   {
     label: 'Bhadravati MIDC',
@@ -12814,10 +12654,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'chandgad',
   },
   {
-    label: 'Chandrapur',
-    value: 'chandrapur',
-  },
-  {
     label: 'Chandrapur CGGC',
     value: 'chandrapur_cggc',
   },
@@ -12846,20 +12682,12 @@ export const citiesAndStates: CityOrState[] = [
     value: 'chandvad',
   },
   {
-    label: 'Chicholi',
-    value: 'chicholi',
-  },
-  {
     label: 'Chikhala',
     value: 'chikhala',
   },
   {
     label: 'Chikhaldara',
     value: 'chikhaldara',
-  },
-  {
-    label: 'Chikhli',
-    value: 'chikhli',
   },
   {
     label: 'Chimur',
@@ -12978,10 +12806,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'deoni',
   },
   {
-    label: 'Deori',
-    value: 'deori',
-  },
-  {
     label: 'Desaiganj',
     value: 'desaiganj',
   },
@@ -13038,10 +12862,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'digras',
   },
   {
-    label: 'Dindori',
-    value: 'dindori',
-  },
-  {
     label: 'Dindori MIDC',
     value: 'dindori_midc',
   },
@@ -13096,10 +12916,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Gadhinglaj MIDC',
     value: 'gadhinglaj_midc',
-  },
-  {
-    label: 'Gandhinagar',
-    value: 'gandhinagar',
   },
   {
     label: 'Gane MIDC',
@@ -13280,10 +13096,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Indapur MIDC',
     value: 'indapur_midc',
-  },
-  {
-    label: 'Jafrabad',
-    value: 'jafrabad',
   },
   {
     label: 'Jafrabad MIDC',
@@ -13524,10 +13336,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Khamgaon',
     value: 'khamgaon',
-  },
-  {
-    label: 'Khanapur',
-    value: 'khanapur',
   },
   {
     label: 'Khandala',
@@ -13794,10 +13602,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'maindargi',
   },
   {
-    label: 'Majgaon',
-    value: 'majgaon',
-  },
-  {
     label: 'Makranifali',
     value: 'makranifali',
   },
@@ -14018,10 +13822,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'murud',
   },
   {
-    label: 'Murud',
-    value: 'murud',
-  },
-  {
     label: 'Murum',
     value: 'murum',
   },
@@ -14198,10 +13998,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'palghar',
   },
   {
-    label: 'Pali',
-    value: 'pali',
-  },
-  {
     label: 'Palus',
     value: 'palus',
   },
@@ -14282,10 +14078,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'patalganga_midc',
   },
   {
-    label: 'Patan',
-    value: 'patan',
-  },
-  {
     label: 'Patan MIDC',
     value: 'patan_midc',
   },
@@ -14332,10 +14124,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Pimpalgaon Baswant',
     value: 'pimpalgaon_baswant',
-  },
-  {
-    label: 'Pipri',
-    value: 'pipri',
   },
   {
     label: 'Pirangut',
@@ -14472,10 +14260,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Sadavali MIDC',
     value: 'sadavali_midc',
-  },
-  {
-    label: 'Saidapur',
-    value: 'saidapur',
   },
   {
     label: 'Sakoli',
@@ -16246,10 +16030,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'rambha',
   },
   {
-    label: 'Ramgarh',
-    value: 'ramgarh',
-  },
-  {
     label: 'Ranapurgada',
     value: 'ranapurgada',
   },
@@ -16420,10 +16200,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Abohar',
     value: 'abohar',
-  },
-  {
-    label: 'Adampur',
-    value: 'adampur',
   },
   {
     label: 'Ahmedgarh',
@@ -16730,10 +16506,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'guru_har_sahai',
   },
   {
-    label: 'Hajipur',
-    value: 'hajipur',
-  },
-  {
     label: 'Halwara',
     value: 'halwara',
   },
@@ -16928,10 +16700,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Mandi Govindgarh',
     value: 'mandi_govindgarh',
-  },
-  {
-    label: 'Mansa',
-    value: 'mansa',
   },
   {
     label: 'Manwal',
@@ -17206,10 +16974,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'sujanpur',
   },
   {
-    label: 'Sultanpur',
-    value: 'sultanpur',
-  },
-  {
     label: 'Sunam',
     value: 'sunam',
   },
@@ -17220,10 +16984,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Talwandi Sabo',
     value: 'talwandi_sabo',
-  },
-  {
-    label: 'Talwara',
-    value: 'talwara',
   },
   {
     label: 'Tapa',
@@ -17308,10 +17068,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'BITS Pilani Campus',
     value: 'bits_pilani_campus',
-  },
-  {
-    label: 'Babai',
-    value: 'babai',
   },
   {
     label: 'Baggar',
@@ -17582,10 +17338,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'deogarh',
   },
   {
-    label: 'Deoli',
-    value: 'deoli',
-  },
-  {
     label: 'Deshnoke',
     value: 'deshnoke',
   },
@@ -17622,10 +17374,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'dungargarh',
   },
   {
-    label: 'Dungarpur',
-    value: 'dungarpur',
-  },
-  {
     label: 'Emri',
     value: 'emri',
   },
@@ -17644,10 +17392,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Galiakot',
     value: 'galiakot',
-  },
-  {
-    label: 'Gangapur',
-    value: 'gangapur',
   },
   {
     label: 'Gangapur City',
@@ -17780,10 +17524,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Industrial Area Swaroopganj',
     value: 'industrial_area_swaroopganj',
-  },
-  {
-    label: 'Islampur',
-    value: 'islampur',
   },
   {
     label: 'Jahazpur',
@@ -17954,10 +17694,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'khetri',
   },
   {
-    label: 'Khetri',
-    value: 'khetri',
-  },
-  {
     label: 'Kinchan',
     value: 'kinchan',
   },
@@ -17988,10 +17724,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Kolvi Mandi Rajendrapur',
     value: 'kolvi_mandi_rajendrapur',
-  },
-  {
-    label: 'Kota',
-    value: 'kota',
   },
   {
     label: 'Kotputli',
@@ -18084,10 +17816,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Mandpiya',
     value: 'mandpiya',
-  },
-  {
-    label: 'Mangrol',
-    value: 'mangrol',
   },
   {
     label: 'Manoharpur',
@@ -18218,20 +17946,12 @@ export const citiesAndStates: CityOrState[] = [
     value: 'nohar',
   },
   {
-    label: 'Nokha',
-    value: 'nokha',
-  },
-  {
     label: 'Nooan',
     value: 'nooan',
   },
   {
     label: 'Padampur',
     value: 'padampur',
-  },
-  {
-    label: 'Pali',
-    value: 'pali',
   },
   {
     label: 'Parbatsar',
@@ -18370,10 +18090,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'rajasmand_village',
   },
   {
-    label: 'Rajgarh',
-    value: 'rajgarh',
-  },
-  {
     label: 'Rajgarh Alwar District',
     value: 'rajgarh_alwar_district',
   },
@@ -18386,10 +18102,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'ramganj_mandi',
   },
   {
-    label: 'Ramgarh',
-    value: 'ramgarh',
-  },
-  {
     label: 'Ramgarh Alwar District',
     value: 'ramgarh_alwar_district',
   },
@@ -18398,20 +18110,12 @@ export const citiesAndStates: CityOrState[] = [
     value: 'ramgarh_sikar_district',
   },
   {
-    label: 'Rani',
-    value: 'rani',
-  },
-  {
     label: 'Rani Sagar RIICO',
     value: 'rani_sagar_riico',
   },
   {
     label: 'Ranthambore',
     value: 'ranthambore',
-  },
-  {
-    label: 'Ratangarh',
-    value: 'ratangarh',
   },
   {
     label: 'Ratannagar',
@@ -18874,16 +18578,8 @@ export const citiesAndStates: CityOrState[] = [
     value: 'alapalayam',
   },
   {
-    label: 'Alathur',
-    value: 'alathur',
-  },
-  {
     label: 'Aliyar',
     value: 'aliyar',
-  },
-  {
-    label: 'Alur',
-    value: 'alur',
   },
   {
     label: 'Alwarkurichi',
@@ -19214,10 +18910,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'batlagundu',
   },
   {
-    label: 'Belur',
-    value: 'belur',
-  },
-  {
     label: 'Bhavani',
     value: 'bhavani',
   },
@@ -19388,10 +19080,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Cuddalore',
     value: 'cuddalore',
-  },
-  {
-    label: 'Cumbum',
-    value: 'cumbum',
   },
   {
     label: 'Damal',
@@ -19576,10 +19264,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Ganapathipuram',
     value: 'ganapathipuram',
-  },
-  {
-    label: 'Gandhi Nagar',
-    value: 'gandhi_nagar',
   },
   {
     label: 'Gandipuram',
@@ -20236,10 +19920,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Kottur',
     value: 'kottur',
-  },
-  {
-    label: 'Kovalam',
-    value: 'kovalam',
   },
   {
     label: 'Kovilpatti',
@@ -21478,10 +21158,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'ramanathapuram',
   },
   {
-    label: 'Rameswaram',
-    value: 'rameswaram',
-  },
-  {
     label: 'Ranipettai',
     value: 'ranipettai',
   },
@@ -21608,10 +21284,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Sathyamangalam',
     value: 'sathyamangalam',
-  },
-  {
-    label: 'Sattur',
-    value: 'sattur',
   },
   {
     label: 'Sayalgudi',
@@ -22510,14 +22182,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'vellottamparappu',
   },
   {
-    label: 'Velur',
-    value: 'velur',
-  },
-  {
-    label: 'Velur',
-    value: 'velur',
-  },
-  {
     label: 'Vembadithalam',
     value: 'vembadithalam',
   },
@@ -22658,16 +22322,8 @@ export const citiesAndStates: CityOrState[] = [
     value: 'achampet',
   },
   {
-    label: 'Alampur',
-    value: 'alampur',
-  },
-  {
     label: 'Allipur',
     value: 'allipur',
-  },
-  {
-    label: 'Ananthapuram',
-    value: 'ananthapuram',
   },
   {
     label: 'Anjani Portland Cement Factory',
@@ -22684,10 +22340,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Asifabad',
     value: 'asifabad',
-  },
-  {
-    label: 'Atmakur',
-    value: 'atmakur',
   },
   {
     label: 'Bahadurguda',
@@ -22754,10 +22406,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'chelpur',
   },
   {
-    label: 'Chennur',
-    value: 'chennur',
-  },
-  {
     label: 'Chinnachitakunta',
     value: 'chinnachitakunta',
   },
@@ -22800,10 +22448,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Devarkadra',
     value: 'devarkadra',
-  },
-  {
-    label: 'Dharmapuri',
-    value: 'dharmapuri',
   },
   {
     label: 'Dharmaram',
@@ -22886,10 +22530,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'ichoda',
   },
   {
-    label: 'Ichoda',
-    value: 'ichoda',
-  },
-  {
     label: 'Ieeja',
     value: 'ieeja',
   },
@@ -22948,10 +22588,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Kalwakurthy',
     value: 'kalwakurthy',
-  },
-  {
-    label: 'Kamalapuram',
-    value: 'kamalapuram',
   },
   {
     label: 'Kamalapuram Karimnagar District',
@@ -23190,10 +22826,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'raasi_cement_factory_wazirabad',
   },
   {
-    label: 'Raghunathpur',
-    value: 'raghunathpur',
-  },
-  {
     label: 'Rajendranagar',
     value: 'rajendranagar',
   },
@@ -23346,16 +22978,8 @@ export const citiesAndStates: CityOrState[] = [
     value: 'yellareddy',
   },
   {
-    label: 'Yerrabalem',
-    value: 'yerrabalem',
-  },
-  {
     label: 'Agartala',
     value: 'agartala',
-  },
-  {
-    label: 'Amarpur',
-    value: 'amarpur',
   },
   {
     label: 'Ambassa',
@@ -23380,10 +23004,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Briddhanagar',
     value: 'briddhanagar',
-  },
-  {
-    label: 'Chandigarh',
-    value: 'chandigarh',
   },
   {
     label: 'Dewanpasa',
@@ -23454,20 +23074,12 @@ export const citiesAndStates: CityOrState[] = [
     value: 'lebachhara',
   },
   {
-    label: 'Madhupur',
-    value: 'madhupur',
-  },
-  {
     label: 'Manu',
     value: 'manu',
   },
   {
     label: 'Matarbari',
     value: 'matarbari',
-  },
-  {
-    label: 'Narsingarh',
-    value: 'narsingarh',
   },
   {
     label: 'Panisagar',
@@ -23494,16 +23106,8 @@ export const citiesAndStates: CityOrState[] = [
     value: 'sonamura',
   },
   {
-    label: 'Taranagar',
-    value: 'taranagar',
-  },
-  {
     label: 'Teliamura',
     value: 'teliamura',
-  },
-  {
-    label: 'Udaipur',
-    value: 'udaipur',
   },
   {
     label: 'Uttar Champamura',
@@ -23576,10 +23180,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Aliganj',
     value: 'aliganj',
-  },
-  {
-    label: 'Aligarh',
-    value: 'aligarh',
   },
   {
     label: 'Allahabad',
@@ -23682,10 +23282,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'auraiya',
   },
   {
-    label: 'Aurangabad',
-    value: 'aurangabad',
-  },
-  {
     label: 'Auras',
     value: 'auras',
   },
@@ -23750,10 +23346,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'bah',
   },
   {
-    label: 'Bahadurganj',
-    value: 'bahadurganj',
-  },
-  {
     label: 'Bahadurpur',
     value: 'bahadurpur',
   },
@@ -23806,16 +23398,8 @@ export const citiesAndStates: CityOrState[] = [
     value: 'ballia',
   },
   {
-    label: 'Balrampur',
-    value: 'balrampur',
-  },
-  {
     label: 'Banat',
     value: 'banat',
-  },
-  {
-    label: 'Banda',
-    value: 'banda',
   },
   {
     label: 'Bangarmau',
@@ -23856,10 +23440,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Barabanki Industrial Area',
     value: 'barabanki_industrial_area',
-  },
-  {
-    label: 'Baragaon',
-    value: 'baragaon',
   },
   {
     label: 'Barahatir Jagdishpur',
@@ -23944,10 +23524,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Beniganj',
     value: 'beniganj',
-  },
-  {
-    label: 'Benipur',
-    value: 'benipur',
   },
   {
     label: 'Beswan',
@@ -24144,14 +23720,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Bulandshahr',
     value: 'bulandshahr',
-  },
-  {
-    label: 'Chail',
-    value: 'chail',
-  },
-  {
-    label: 'Chakia',
-    value: 'chakia',
   },
   {
     label: 'Chakmano',
@@ -24414,10 +23982,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'etmadpur',
   },
   {
-    label: 'Faizabad',
-    value: 'faizabad',
-  },
-  {
     label: 'Faizganj',
     value: 'faizganj',
   },
@@ -24442,10 +24006,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'farrukhabad',
   },
   {
-    label: 'Fatehabad',
-    value: 'fatehabad',
-  },
-  {
     label: 'Fatehganj Pashchimi',
     value: 'fatehganj_pashchimi',
   },
@@ -24456,10 +24016,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Fatehgarh',
     value: 'fatehgarh',
-  },
-  {
-    label: 'Fatehpur',
-    value: 'fatehpur',
   },
   {
     label: 'Fatehpur',
@@ -24512,10 +24068,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Gangaghat',
     value: 'gangaghat',
-  },
-  {
-    label: 'Gangapur',
-    value: 'gangapur',
   },
   {
     label: 'Gangiri',
@@ -24714,10 +24266,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'hallaur',
   },
   {
-    label: 'Hamirpur',
-    value: 'hamirpur',
-  },
-  {
     label: 'Handia',
     value: 'handia',
   },
@@ -24740,10 +24288,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Hargaon',
     value: 'hargaon',
-  },
-  {
-    label: 'Hariharpur',
-    value: 'hariharpur',
   },
   {
     label: 'Hariyawan',
@@ -24784,10 +24328,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Hindalco Industries Ltd',
     value: 'hindalco_industries_ltd',
-  },
-  {
-    label: 'Hyderabad',
-    value: 'hyderabad',
   },
   {
     label: 'Ibrahimpur',
@@ -25182,10 +24722,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'khandauli',
   },
   {
-    label: 'Khanpur',
-    value: 'khanpur',
-  },
-  {
     label: 'Khanupur',
     value: 'khanupur',
   },
@@ -25200,10 +24736,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Khariya',
     value: 'khariya',
-  },
-  {
-    label: 'Kharkhoda',
-    value: 'kharkhoda',
   },
   {
     label: 'Khatauli',
@@ -25286,10 +24818,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'kosi_kalan',
   },
   {
-    label: 'Kota',
-    value: 'kota',
-  },
-  {
     label: 'Kotra',
     value: 'kotra',
   },
@@ -25370,10 +24898,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'lal_gopalganj_nindaura',
   },
   {
-    label: 'Lalganj',
-    value: 'lalganj',
-  },
-  {
     label: 'Lalitpur',
     value: 'lalitpur',
   },
@@ -25392,10 +24916,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Ledwa Mahua',
     value: 'ledwa_mahua',
-  },
-  {
-    label: 'Loni',
-    value: 'loni',
   },
   {
     label: 'Lucknow',
@@ -25428,10 +24948,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Mahaban',
     value: 'mahaban',
-  },
-  {
-    label: 'Maharajganj',
-    value: 'maharajganj',
   },
   {
     label: 'Mahimapur',
@@ -25498,20 +25014,12 @@ export const citiesAndStates: CityOrState[] = [
     value: 'makhanpur',
   },
   {
-    label: 'Malhipur',
-    value: 'malhipur',
-  },
-  {
     label: 'Malihabad',
     value: 'malihabad',
   },
   {
     label: 'Mallawan',
     value: 'mallawan',
-  },
-  {
-    label: 'Mandawar',
-    value: 'mandawar',
   },
   {
     label: 'Manikpur',
@@ -25610,10 +25118,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'miranpur',
   },
   {
-    label: 'Mirganj',
-    value: 'mirganj',
-  },
-  {
     label: 'Mirzapur',
     value: 'mirzapur',
   },
@@ -25670,16 +25174,8 @@ export const citiesAndStates: CityOrState[] = [
     value: 'moth',
   },
   {
-    label: 'Mubarakpur',
-    value: 'mubarakpur',
-  },
-  {
     label: 'Mughalsarai',
     value: 'mughalsarai',
-  },
-  {
-    label: 'Muhammadabad',
-    value: 'muhammadabad',
   },
   {
     label: 'Mundera Bazar',
@@ -25714,10 +25210,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'nadigaon',
   },
   {
-    label: 'Nagina',
-    value: 'nagina',
-  },
-  {
     label: 'Nagram',
     value: 'nagram',
   },
@@ -25740,10 +25232,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Nanauta',
     value: 'nanauta',
-  },
-  {
-    label: 'Nandgaon',
-    value: 'nandgaon',
   },
   {
     label: 'Nanpara',
@@ -25810,10 +25298,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'nivi',
   },
   {
-    label: 'Niwari',
-    value: 'niwari',
-  },
-  {
     label: 'Nizamabad',
     value: 'nizamabad',
   },
@@ -25832,10 +25316,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Nyotini',
     value: 'nyotini',
-  },
-  {
-    label: 'Obra',
-    value: 'obra',
   },
   {
     label: 'Oel Dhakwa',
@@ -25934,10 +25414,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'patiyali',
   },
   {
-    label: 'Patti',
-    value: 'patti',
-  },
-  {
     label: 'Pavi Sadakpur',
     value: 'pavi_sadakpur',
   },
@@ -25998,10 +25474,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'piprayli_bujurg',
   },
   {
-    label: 'Pipri',
-    value: 'pipri',
-  },
-  {
     label: 'Powayan',
     value: 'powayan',
   },
@@ -26054,10 +25526,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'raja_ka_rampur',
   },
   {
-    label: 'Rajapur',
-    value: 'rajapur',
-  },
-  {
     label: 'Ram Nagar Industrial Area',
     value: 'ram_nagar_industrial_area',
   },
@@ -26070,28 +25538,12 @@ export const citiesAndStates: CityOrState[] = [
     value: 'ramkola',
   },
   {
-    label: 'Ramnagar',
-    value: 'ramnagar',
-  },
-  {
-    label: 'Rampur',
-    value: 'rampur',
-  },
-  {
     label: 'Rampur Karkhana',
     value: 'rampur_karkhana',
   },
   {
     label: 'Rampur Maniharan',
     value: 'rampur_maniharan',
-  },
-  {
-    label: 'Rampura',
-    value: 'rampura',
-  },
-  {
-    label: 'Ranipur',
-    value: 'ranipur',
   },
   {
     label: 'Raniyan',
@@ -26362,10 +25814,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'sewarhi',
   },
   {
-    label: 'Shahabad',
-    value: 'shahabad',
-  },
-  {
     label: 'Shahabad Rampur District',
     value: 'shahabad_rampur_district',
   },
@@ -26376,14 +25824,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Shahi',
     value: 'shahi',
-  },
-  {
-    label: 'Shahjahanpur',
-    value: 'shahjahanpur',
-  },
-  {
-    label: 'Shahpur',
-    value: 'shahpur',
   },
   {
     label: 'Shakti Nagar NTPC Township',
@@ -26412,10 +25852,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Sherkot',
     value: 'sherkot',
-  },
-  {
-    label: 'Shikarpur',
-    value: 'shikarpur',
   },
   {
     label: 'Shikohabad',
@@ -26498,16 +25934,8 @@ export const citiesAndStates: CityOrState[] = [
     value: 'sirauli',
   },
   {
-    label: 'Sirsa',
-    value: 'sirsa',
-  },
-  {
     label: 'Sirsaganj',
     value: 'sirsaganj',
-  },
-  {
-    label: 'Sirsi',
-    value: 'sirsi',
   },
   {
     label: 'Sisauli',
@@ -26516,10 +25944,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Siswa Bazar',
     value: 'siswa_bazar',
-  },
-  {
-    label: 'Sitapur',
-    value: 'sitapur',
   },
   {
     label: 'Soron',
@@ -26532,14 +25956,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Subeha',
     value: 'subeha',
-  },
-  {
-    label: 'Sultanpur',
-    value: 'sultanpur',
-  },
-  {
-    label: 'Sumerpur',
-    value: 'sumerpur',
   },
   {
     label: 'Suriyawan',
@@ -26660,10 +26076,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Umarha',
     value: 'umarha',
-  },
-  {
-    label: 'Umri',
-    value: 'umri',
   },
   {
     label: 'Umri Kalan',
@@ -26792,10 +26204,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Chakrata',
     value: 'chakrata',
-  },
-  {
-    label: 'Chamba',
-    value: 'chamba',
   },
   {
     label: 'Chamoli',
@@ -27046,14 +26454,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'pratitnagar',
   },
   {
-    label: 'Raipur',
-    value: 'raipur',
-  },
-  {
-    label: 'Ramnagar',
-    value: 'ramnagar',
-  },
-  {
     label: 'Ranikhet',
     value: 'ranikhet',
   },
@@ -27068,10 +26468,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Rudraprayag',
     value: 'rudraprayag',
-  },
-  {
-    label: 'Rudrapur',
-    value: 'rudrapur',
   },
   {
     label: 'SIDCUL Haridwar',
@@ -27098,14 +26494,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'sitarganj',
   },
   {
-    label: 'Srinagar',
-    value: 'srinagar',
-  },
-  {
-    label: 'Sultanpur',
-    value: 'sultanpur',
-  },
-  {
     label: 'Tanakpur',
     value: 'tanakpur',
   },
@@ -27128,10 +26516,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Adra',
     value: 'adra',
-  },
-  {
-    label: 'Ahmadpur',
-    value: 'ahmadpur',
   },
   {
     label: 'Aiho',
@@ -27220,14 +26604,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Ashokenagar-Kalyangarh',
     value: 'ashokenagarkalyangarh',
-  },
-  {
-    label: 'Aurangabad',
-    value: 'aurangabad',
-  },
-  {
-    label: 'Aurangabad',
-    value: 'aurangabad',
   },
   {
     label: 'Badamtam Tea Garden',
@@ -27384,10 +26760,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Banupur',
     value: 'banupur',
-  },
-  {
-    label: 'Bara',
-    value: 'bara',
   },
   {
     label: 'Bara Jumla',
@@ -27610,10 +26982,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'birpara_tea_garden',
   },
   {
-    label: 'Bishnupur',
-    value: 'bishnupur',
-  },
-  {
     label: 'Bishnupur Birbhum District',
     value: 'bishnupur_birbhum_district',
   },
@@ -27762,20 +27130,12 @@ export const citiesAndStates: CityOrState[] = [
     value: 'chandrakona',
   },
   {
-    label: 'Chandrapur',
-    value: 'chandrapur',
-  },
-  {
     label: 'Chandrokona',
     value: 'chandrokona',
   },
   {
     label: 'Chapari',
     value: 'chapari',
-  },
-  {
-    label: 'Chapra',
-    value: 'chapra',
   },
   {
     label: 'Chaspara',
@@ -27926,10 +27286,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'darjeeling',
   },
   {
-    label: 'Daulatpur',
-    value: 'daulatpur',
-  },
-  {
     label: 'Deara',
     value: 'deara',
   },
@@ -27980,10 +27336,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Dhatrigram',
     value: 'dhatrigram',
-  },
-  {
-    label: 'Dhola',
-    value: 'dhola',
   },
   {
     label: 'Dhuilya',
@@ -28074,10 +27426,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'dungra_khasmahal',
   },
   {
-    label: 'Durgapur',
-    value: 'durgapur',
-  },
-  {
     label: 'Durgapur MC',
     value: 'durgapur_mc',
   },
@@ -28120,10 +27468,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Farakka PTS Township',
     value: 'farakka_pts_township',
-  },
-  {
-    label: 'Fatehpur',
-    value: 'fatehpur',
   },
   {
     label: 'Fatellapur',
@@ -28226,10 +27570,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'gobindapur',
   },
   {
-    label: 'Gopalpur',
-    value: 'gopalpur',
-  },
-  {
     label: 'Gushkara',
     value: 'gushkara',
   },
@@ -28310,10 +27650,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'hingalganj',
   },
   {
-    label: 'Hirapur',
-    value: 'hirapur',
-  },
-  {
     label: 'Hooghly',
     value: 'hooghly',
   },
@@ -28338,10 +27674,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'ilambazar',
   },
   {
-    label: 'Islampur',
-    value: 'islampur',
-  },
-  {
     label: 'Itahar',
     value: 'itahar',
   },
@@ -28356,10 +27688,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Jafarpur',
     value: 'jafarpur',
-  },
-  {
-    label: 'Jafrabad',
-    value: 'jafrabad',
   },
   {
     label: 'Jagadanandapur',
@@ -28416,10 +27744,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Jangalpara',
     value: 'jangalpara',
-  },
-  {
-    label: 'Jangipur',
-    value: 'jangipur',
   },
   {
     label: 'Jateshwar',
@@ -28550,10 +27874,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'kalyanpur',
   },
   {
-    label: 'Kamalapur',
-    value: 'kamalapur',
-  },
-  {
     label: 'Kamarhati',
     value: 'kamarhati',
   },
@@ -28584,10 +27904,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Kankuria',
     value: 'kankuria',
-  },
-  {
-    label: 'Kanpur',
-    value: 'kanpur',
   },
   {
     label: 'Kantaberia',
@@ -28662,24 +27978,12 @@ export const citiesAndStates: CityOrState[] = [
     value: 'khandra',
   },
   {
-    label: 'Khanpur',
-    value: 'khanpur',
-  },
-  {
     label: 'Khanpur Hugli District',
     value: 'khanpur_hugli_district',
   },
   {
     label: 'Khantora',
     value: 'khantora',
-  },
-  {
-    label: 'Kharagpur',
-    value: 'kharagpur',
-  },
-  {
-    label: 'Kharar',
-    value: 'kharar',
   },
   {
     label: 'Khardaha Haora District',
@@ -28906,10 +28210,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'mangarjung_tea_garden',
   },
   {
-    label: 'Manikpur',
-    value: 'manikpur',
-  },
-  {
     label: 'Manirampur',
     value: 'manirampur',
   },
@@ -28932,10 +28232,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Mathabhanga',
     value: 'mathabhanga',
-  },
-  {
-    label: 'Mathurapur',
-    value: 'mathurapur',
   },
   {
     label: 'Matialihat',
@@ -28988,14 +28284,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Mirik N.A.A.',
     value: 'mirik_naa',
-  },
-  {
-    label: 'Mirzapur',
-    value: 'mirzapur',
-  },
-  {
-    label: 'Mohanpur',
-    value: 'mohanpur',
   },
   {
     label: 'Mugkalyan',
@@ -29186,10 +28474,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'parashkol',
   },
   {
-    label: 'Parasia',
-    value: 'parasia',
-  },
-  {
     label: 'Parota',
     value: 'parota',
   },
@@ -29306,20 +28590,12 @@ export const citiesAndStates: CityOrState[] = [
     value: 'raiganj',
   },
   {
-    label: 'Raipur',
-    value: 'raipur',
-  },
-  {
     label: 'Rajarhat-Gopalpore',
     value: 'rajarhatgopalpore',
   },
   {
     label: 'Rajbalhat',
     value: 'rajbalhat',
-  },
-  {
-    label: 'Rajnagar',
-    value: 'rajnagar',
   },
   {
     label: 'Rajpur Bazar',
@@ -29356,10 +28632,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Ramkrishnapur',
     value: 'ramkrishnapur',
-  },
-  {
-    label: 'Ramnagar',
-    value: 'ramnagar',
   },
   {
     label: 'Rampurhat',
@@ -29400,10 +28672,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Sahapur',
     value: 'sahapur',
-  },
-  {
-    label: 'Sahebganj',
-    value: 'sahebganj',
   },
   {
     label: 'Sahebpur',
@@ -29734,14 +29002,6 @@ export const citiesAndStates: CityOrState[] = [
     value: 'assam',
   },
   {
-    label: 'Bihar',
-    value: 'bihar',
-  },
-  {
-    label: 'Chandigarh',
-    value: 'chandigarh',
-  },
-  {
     label: 'Chhattisgarh',
     value: 'chhattisgarh',
   },
@@ -29752,10 +29012,6 @@ export const citiesAndStates: CityOrState[] = [
   {
     label: 'Daman & Diu',
     value: 'daman_diu',
-  },
-  {
-    label: 'Delhi',
-    value: 'delhi',
   },
   {
     label: 'Goa',
