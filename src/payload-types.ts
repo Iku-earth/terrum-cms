@@ -7546,6 +7546,17 @@ export interface Event {
    */
   location?: [number, number] | null;
   form?: (number | null) | Form;
+  agenda?:
+    | {
+        time: string;
+        title: string;
+        speaker?: string | null;
+        description?: string | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'session';
+      }[]
+    | null;
   /**
    * Mark this if the event is deleted.
    */
@@ -8045,6 +8056,20 @@ export interface EventsSelect<T extends boolean = true> {
   'is online and offline'?: T;
   location?: T;
   form?: T;
+  agenda?:
+    | T
+    | {
+        session?:
+          | T
+          | {
+              time?: T;
+              title?: T;
+              speaker?: T;
+              description?: T;
+              id?: T;
+              blockName?: T;
+            };
+      };
   deleted?: T;
   updatedAt?: T;
   createdAt?: T;

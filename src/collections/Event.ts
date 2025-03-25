@@ -237,6 +237,44 @@ const Event: CollectionConfig = {
       required: false,
     },
     {
+      name: 'agenda',
+      label: 'Event Agenda',
+      type: 'blocks',
+      blocks: [
+        {
+          slug: 'session',
+          labels: {
+            singular: 'Session',
+            plural: 'Sessions',
+          },
+          fields: [
+            {
+              name: 'time',
+              label: 'Time',
+              type: 'text',
+              required: true,
+            },
+            {
+              name: 'title',
+              label: 'Title',
+              type: 'text',
+              required: true,
+            },
+            {
+              name: 'speaker',
+              label: 'Speaker',
+              type: 'text',
+            },
+            {
+              name: 'description',
+              label: 'Description',
+              type: 'textarea',
+            },
+          ],
+        },
+      ],
+    },
+    {
       name: 'deleted',
       type: 'checkbox',
       defaultValue: false,
