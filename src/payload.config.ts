@@ -1,23 +1,24 @@
-import {postgresAdapter} from '@payloadcms/db-postgres';
-import {payloadCloudPlugin} from '@payloadcms/payload-cloud';
-import {lexicalEditor} from '@payloadcms/richtext-lexical';
-import path from 'path';
-import {buildConfig} from 'payload';
-import {fileURLToPath} from 'url';
-import sharp from 'sharp';
-import {s3Storage} from '@payloadcms/storage-s3';
+import { postgresAdapter } from '@payloadcms/db-postgres'
+import { payloadCloudPlugin } from '@payloadcms/payload-cloud'
+import { lexicalEditor } from '@payloadcms/richtext-lexical'
+import path from 'path'
+import { buildConfig } from 'payload'
+import { fileURLToPath } from 'url'
+import sharp from 'sharp'
+import { s3Storage } from '@payloadcms/storage-s3'
 
-import {Users} from '@/collections/Users';
-import {Media} from '@/collections/Media';
-import Brand from "@/collections/Brand";
-import Event from "@/collections/Event";
-import ShoppingCategory from "@/collections/ShoppingCategory";
-import { formBuilderPlugin } from '@payloadcms/plugin-form-builder';
-import { importExportPlugin } from '@payloadcms/plugin-import-export';
-import { resendAdapter } from '@payloadcms/email-resend';
+import { Users } from '@/collections/Users'
+import { Media } from '@/collections/Media'
+import Brand from '@/collections/Brand'
+import Event from '@/collections/Event'
+import ShoppingCategory from '@/collections/ShoppingCategory'
+import { formBuilderPlugin } from '@payloadcms/plugin-form-builder'
+import { importExportPlugin } from '@payloadcms/plugin-import-export'
+import { resendAdapter } from '@payloadcms/email-resend'
+import { hasRole } from '@/utils/role-checker'
 
-const filename = fileURLToPath(import.meta.url);
-const dirname = path.dirname(filename);
+const filename = fileURLToPath(import.meta.url)
+const dirname = path.dirname(filename)
 
 export default buildConfig({
   cors: ['http://localhost:3001'],
@@ -69,11 +70,33 @@ export default buildConfig({
         message: true,
         payment: false,
       },
+      formOverrides: {
+        access: {
+          read: ({ req }) => hasRole(req, ['admin', 'staff']),
+          create: ({ req }) => hasRole(req, ['admin', 'staff']),
+          update: ({ req }) => hasRole(req, ['admin', 'staff']),
+          delete: ({ req }) => hasRole(req, ['admin', 'staff']),
+        },
+      },
+      formSubmissionOverrides: {
+        access: {
+          read: ({ req }) => hasRole(req, ['admin', 'staff']),
+          create: ({ req }) => hasRole(req, ['admin', 'staff']),
+          update: ({ req }) => hasRole(req, ['admin', 'staff']),
+          delete: ({ req }) => hasRole(req, ['admin', 'staff']),
+        },
+      },
     }),
     importExportPlugin({
       collections: ['brands'],
       overrideExportCollection: (collection) => {
         collection.admin.group = 'System'
+        collection.access = {
+          read: ({ req }) => hasRole(req, ['admin', 'staff']),
+          create: ({ req }) => hasRole(req, ['admin', 'staff']),
+          update: ({ req }) => hasRole(req, ['admin', 'staff']),
+          delete: ({ req }) => hasRole(req, ['admin', 'staff']),
+        }
         collection.upload.staticDir = path.resolve(dirname, 'uploads')
         return collection
       },
